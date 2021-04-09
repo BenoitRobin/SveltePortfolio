@@ -13,7 +13,8 @@
     "polka": "next",
     "postcss": "^8.1.8",
     "sass": "^1.29.0",
-    "sirv": "^1.0.0"
+    "sirv": "^1.0.0",
+    "sveltestrap": "^3.14.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

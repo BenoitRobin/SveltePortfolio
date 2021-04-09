@@ -4,14 +4,16 @@
 
 <style type='text/scss'>
 @import "../styles/theme.scss";
-
 	main {
-		position: relative;
-		max-width: $site-width;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
+		background-color: $alt-color;
+	}
+
+	@media (min-width: 959px) {
+		main {
+			position: relative;
+			margin: 0 0 0 250px;
+			box-sizing: border-box;
+		}
 	}
 </style>
 
